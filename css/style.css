@@ -46,17 +46,23 @@ li {
 
 .questions-wrap {
 	position: relative;
-	bottom: 160px;
 	left: -36px;
+	bottom: 160px;
+}
+
+.morequestions-wrap {
+	position: relative;
+	left: 200px;
+	top: 130px;
 }
 
 .visualize-wrap {
 	position: relative;
-	left: 418px;
+	left: -36px;
 	bottom: 250px;
 }
 
-.questions-wrap, .visualize-wrap, .sites {
+.questions-wrap, .morequestions-wrap, .visualize-wrap, .sites {
 	padding: 20px 30px;
 }
 
@@ -67,7 +73,7 @@ li {
 .sites {
     position: relative;
     left: 200px;
-    bottom: 250px;
+    top: 75px;
 }
 
 .wrapper {
