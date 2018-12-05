@@ -58,8 +58,14 @@ li {
 
 .visualize-wrap {
 	position: relative;
-	left: -36px;
-	bottom: 250px;
+	left: 425px;
+	bottom: 650px;
+}
+
+.affirmations-wrap {
+	position: relative;
+	left: -225px;
+	top: 400px;
 }
 
 .questions-wrap, .morequestions-wrap, .visualize-wrap, .sites {
@@ -73,7 +79,7 @@ li {
 .sites {
     position: relative;
     left: 200px;
-    top: 75px;
+    top: 0px;
 }
 
 .wrapper {
