@@ -12,8 +12,9 @@ h3 {
 }
 
 img {
-    height: 85%;
+    height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
 .wrapper {
@@ -40,4 +41,7 @@ img {
 
 .img-wrap {
     background-color: lightgray;
+    overflow: hidden;
+    grid-column: 1 / span 2;
+
 }
