@@ -5,6 +5,12 @@
 
 html {
     background-color: #fff;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 2% 0;
+    text-align: center;
 }
 
 h3 {
@@ -17,6 +23,16 @@ img {
     object-fit: cover;
 }
 
+ul {
+    
+    text-align: left;
+}
+
+ul li {
+    margin: 1rem 2rem;
+    list-style: none;
+}
+
 .wrapper {
 
     margin: 30px 30px;
@@ -25,7 +41,7 @@ img {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1.2fr) 1fr;
 
 }
 
@@ -33,15 +49,19 @@ img {
 
 
     background-color: thistle;
-    height: 400px;
+    height: 100%;
     width: 100%;
     text-align: center;
+}
 
+.wrapper > :last-child {
+    grid-column: 1 / span 2;
 }
 
 .img-wrap {
     background-color: lightgray;
     overflow: hidden;
     grid-column: 1 / span 2;
+    grid-row: 1.5fr;
 
 }
