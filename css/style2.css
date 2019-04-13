@@ -4,13 +4,15 @@
 }
 
 html {
-    background-color: #fff;
+    background-color: thistle;
     font-family: sans-serif;
 }
 
 h1 {
+    font-size: 3rem;
     margin: 2% 0;
     text-align: center;
+    text-shadow: 3px 3px darkgray;
 }
 
 h3 {
@@ -24,7 +26,6 @@ img {
 }
 
 ul {
-    
     text-align: left;
 }
 
@@ -35,9 +36,9 @@ ul li {
 
 .wrapper {
 
+    background-color: thistle;
     margin: 30px 30px;
 
-    border: 2px solid orangered;
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
@@ -48,7 +49,8 @@ ul li {
 .wrapper > * {
 
 
-    background-color: thistle;
+    background-color: white;
+    box-shadow: 1px 3px 4px rgba(0,0,0,.5);
     height: 100%;
     width: 100%;
     text-align: center;
