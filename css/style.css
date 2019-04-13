@@ -1,93 +1,68 @@
 * {
-	font-family: Verdana, sans-serif;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1, h3 {
-	text-align: center;
+html {
+    background-color: thistle;
+    color: darkslategray;
+    font-family: sans-serif;
 }
 
 h1 {
-	margin: 55px 0;
+    font-size: 3rem;
+    margin: 2% 0;
+    text-align: center;
+    text-shadow: 3px 3px darkgray;
 }
 
 h3 {
-	margin: 15px 0;
+    margin: 30px auto;
 }
 
 img {
-	width: 300px;
-	height: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-li {
-	list-style-type: none;
-	margin-bottom: 10px;
+ul {
+    text-align: left;
 }
 
-.box {
-
-	display: inline-block;
-	margin-bottom: 60px;
-	width: 450px;
-}
-
-.cf {
-    clear: both;
-    height: 0;
-}
-
-.img-wrap {
-
-	text-align: center;
-}
-
-.questions-wrap {
-	position: relative;
-	left: -36px;
-	bottom: 160px;
-}
-
-.morequestions-wrap {
-	position: relative;
-	left: 75px;
-	top: -350px;
-    width: 70%;
-}
-
-.visualize-wrap {
-	position: relative;
-	left: 425px;
-	top: -250px;
-}
-
-.affirmations-wrap {
-	position: relative;
-	left: 100px;
-	top: -300px;
-    width: 70%;
-}
-
-.questions-wrap, .morequestions-wrap, .visualize-wrap, .sites {
-	padding: 20px 30px;
-}
-
-.questions-wrap {
-	margin-top: 20px;
-}
-
-.sites {
-    position: relative;
-    left: 75px;
-    top: -400px;
-    width: 70%;
+ul li {
+    margin: 1rem 2rem;
+    list-style: none;
 }
 
 .wrapper {
-	margin: 20px 0;
-	position: absolute;
-	border: 1px solid thistle;
-	width: 1000px;
+
+    background-color: thistle;
+    margin: 30px 30px;
+
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+
+}
+
+.wrapper > * {
+    
+    background-color: white;
+    box-shadow: 1px 3px 4px rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper > :last-child {
+    grid-column: 1 / span 2;
+}
+
+.img-wrap {
+    overflow: hidden;
+    grid-column: 1 / span 2;
+    grid-row: 1.5fr;
+
 }
