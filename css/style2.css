@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #fff;
+}
+
+h3 {
+    margin: 30px auto;
+}
+
+img {
+    height: 85%;
+    width: 100%;
+}
+
+.wrapper {
+
+    margin: 30px 30px;
+
+    border: 2px solid orangered;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+}
+
+.wrapper > * {
+
+
+    background-color: thistle;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.img-wrap {
+    background-color: lightgray;
+}
