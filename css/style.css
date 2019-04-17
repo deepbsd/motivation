@@ -9,6 +9,8 @@ html {
     font-family: sans-serif;
 }
 
+/* base elements */
+
 h1 {
     font-size: 3rem;
     margin: 2% 0;
@@ -39,10 +41,16 @@ li p {
     font-size: 1.2rem;
 }
 
+/* Classes */
+
 .wrapper {
 
     background-color: thistle;
     margin: 30px 30px;
+
+    /****************************** 
+     * .wrapper is a grid container 
+     * ****************************/
 
     display: grid;
     grid-gap: 50px;
